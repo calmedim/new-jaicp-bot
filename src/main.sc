@@ -4,19 +4,19 @@ theme: /
 
     state: Start
         q!: $regex</start>
-        a: Начнём.
+        a: Старт.
 
     state: Hello
         intent!: /привет
-        a: Привет привет
+        a: Добрых вечеров
 
     state: Bye
         intent!: /пока
-        a: Пока пока
+        a: Спокойных ноче
 
     state: NoMatch
         event!: noMatch
-        a: Я не понял. Вы сказали: {{$request.query}}
+        a: Ваша реплика: {{$request.query}}
 
     state: Match
         event!: match
