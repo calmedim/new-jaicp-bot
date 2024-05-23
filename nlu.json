@@ -34,6 +34,18 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
+    "path" : "/интент",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "интент"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
