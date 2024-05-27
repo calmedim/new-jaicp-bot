@@ -315,40 +315,6 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "path" : "/привет",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "привет"
-    }, {
-      "text" : "я вас приветствую"
-    }, {
-      "text" : "доброго времени суток"
-    }, {
-      "text" : "здравствуйте "
-    }, {
-      "text" : "дратути"
-    }, {
-      "text" : "салам алейкум"
-    } ],
-    "classificationRules" : {
-      "refs" : [ {
-        "entityName" : "classRule_8213",
-        "predicate" : "CONTAINS_NOT"
-      }, {
-        "entityName" : "Услуга",
-        "predicate" : "CONTAINS_NOT"
-      }, {
-        "entityName" : "Название_Долг",
-        "predicate" : "CONTAINS_NOT"
-      }, {
-        "entityName" : "classRule_7443",
-        "predicate" : "CONTAINS_NOT"
-      } ]
-    },
-    "patterns" : [ "~добрый (~утро/~день/~вечер/~ночь)", "(здравствуй*/здрасти/здрасьте)" ],
-    "priority" : 0
-  }, {
     "path" : "/CallTheOperator",
     "enabled" : true,
     "shared" : false,
@@ -4018,25 +3984,6 @@
     } ]
   }, {
     "entity" : {
-      "name" : "classRule_8213",
-      "enabled" : true,
-      "shared" : false,
-      "type" : "annotation",
-      "priority" : 1,
-      "noSpelling" : false,
-      "noMorph" : false,
-      "phoneticSearch" : false,
-      "fuzzySearch" : false,
-      "client" : false,
-      "hidden" : true
-    },
-    "records" : [ {
-      "type" : "synonyms",
-      "rule" : [ "принял", "принять", "принято" ],
-      "value" : ""
-    } ]
-  }, {
-    "entity" : {
       "name" : "Название_Долг",
       "enabled" : true,
       "shared" : false,
@@ -4140,25 +4087,6 @@
     "records" : [ {
       "type" : "synonyms",
       "rule" : [ "Начисление" ],
-      "value" : ""
-    } ]
-  }, {
-    "entity" : {
-      "name" : "classRule_7443",
-      "enabled" : true,
-      "shared" : false,
-      "type" : "annotation",
-      "priority" : 1,
-      "noSpelling" : false,
-      "noMorph" : false,
-      "phoneticSearch" : false,
-      "fuzzySearch" : false,
-      "client" : false,
-      "hidden" : true
-    },
-    "records" : [ {
-      "type" : "pattern",
-      "rule" : [ "(~вода/*телефон*)" ],
       "value" : ""
     } ]
   }, {
